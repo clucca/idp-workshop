@@ -21,11 +21,11 @@ metadata:
     - clucca
 spec:
   type: service
-  owner: change-value
+  owner: clucca
   lifecycle: experimental
 #  system: Demo
    dependsOn:
-     - component:default/my-example-service
+     - component:default/my-example-clucca
 #  consumesApis:
 #    - user-api
 #  providesApis:
