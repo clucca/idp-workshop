@@ -26,14 +26,14 @@ spec:
           description: This will be the name of the working branch in your new repository
     - title: Service Infrastructure Details
       required:
-        - owner
+       - owner
       properties:
         owner:
           title: Choose an Owner for the Service
           type: string
           ui:field: OwnerPicker
           ui:options:
-           allowedKinds:
+          allowedKinds:
            - Group
         # This field is hidden but needed to authenticate the request to trigger the pipeline
         token:
