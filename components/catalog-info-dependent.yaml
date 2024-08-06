@@ -19,7 +19,7 @@ metadata:
 #    key1: value1
   tags:
     - clucca
- spec:
+  spec:
    type: service
    owner: clucca
    lifecycle: experimental
