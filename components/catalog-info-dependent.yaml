@@ -25,7 +25,7 @@ spec:
   lifecycle: experimental
 #  system: Demo
  dependsOn:
-   - component:default/my-example-clucca
+    - component:default/my-example-clucca
 #  consumesApis:
 #    - user-api
 #  providesApis:
