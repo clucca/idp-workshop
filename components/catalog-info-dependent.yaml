@@ -24,7 +24,7 @@ spec:
   owner: clucca
   lifecycle: experimental
 #  system: Demo
- dependsOn:
+dependsOn:
     - component:default/my-example-clucca
 #  consumesApis:
 #    - user-api
