@@ -19,13 +19,13 @@ metadata:
 #    key1: value1
   tags:
     - clucca
-  spec:
-   type: service
-   owner: clucca
-   lifecycle: experimental
+spec:
+  type: service
+  owner: clucca
+  lifecycle: experimental
 #  system: Demo
-   dependsOn:
-     - component:default/my-example-clucca
+  dependsOn:
+    - component:default/my-example-clucca
 #  consumesApis:
 #    - user-api
 #  providesApis:
